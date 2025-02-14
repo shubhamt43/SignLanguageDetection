@@ -21,7 +21,7 @@
         body {
             background-color: var(--background-color);
             color: var(--text-color);
-            line-height: 1.5;
+            line-height: 1.6;
             /* padding: 2rem; */
         }
 
@@ -405,6 +405,63 @@
                 min-height: 150px;
             }
         }
+        
+        .feature-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 4rem;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .feature-section {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+
+        .feature-content h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .feature-content p {
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .feature-image {
+            position: relative;
+            background: #e8f7f0;
+            border-radius: 1rem;
+            padding: 2rem;
+        }
+
+        .feature-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+        }
+
+ 
+
+
+        /* Floating Hearts Animation */
+        @keyframes float {
+            0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(-100px) rotate(20deg); opacity: 0; }
+        }
+
+        .floating-heart {
+            position: absolute;
+            color: #ff4d4d;
+            font-size: 2rem;
+            animation: float 2s ease-out forwards;
+        }
+
+
         .footer {
             /* background-color: #000; */
             color: #fff;
@@ -459,7 +516,7 @@
         <h1>More than a Gesture detecting software</h1>
         <p>"More than just gesture detection, our technology transforms the way you interact with digital platforms. By seamlessly translating your gestures into real-time voice responses, we bridge the gap between movement and communication. </p>
         <a href="#" class="cta-button">
-            Start recording
+            Start translating
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
@@ -485,7 +542,7 @@
             <div class="step">
                 <div class="step-image">
                     <div class="">
-                        <div class="inner"><img src="./assets/img3.jpeg" alt=""></div>
+                        <div class="inner"><img src="./assets/img2.jpeg" alt=""></div>
                     </div>
                 </div>  
             </div>
@@ -504,6 +561,18 @@
        
     </div>
 </section>
+
+    <section>
+        <div class="container">
+            <section class="feature-section">
+                <div class="feature-content">
+                    <h2>"Breaking Barriers with Every Gesture"</h2>
+                    <p>"Breaking communication barriers, our sign language detection system bridges the gap between communities. With cutting-edge technology, we make it easy to translate gestures into words, fostering inclusivity and effortless connection."</p>
+                </div>
+                <div class="feature-image">
+                    <img src="./assets/img3.jpg" alt="Video recording interface">
+                </div>
+    </section>
 
     <footer class="footer">
         <div class="footer-left">
@@ -568,6 +637,20 @@
             cursor.style.animationDelay = `${delay}ms`;
         });
 
+         // Floating hearts animation
+         function createHeart() {
+            const heart = document.createElement('div');
+            heart.className = 'floating-heart';
+            heart.innerHTML = '❤️';
+            heart.style.left = Math.random() * 100 + '%';
+            document.querySelector('.feature-image').appendChild(heart);
+            
+            setTimeout(() => {
+                heart.remove();
+            }, 2000);
+        }
+
+        setInterval(createHeart, 3000);
         
     </script>
 
