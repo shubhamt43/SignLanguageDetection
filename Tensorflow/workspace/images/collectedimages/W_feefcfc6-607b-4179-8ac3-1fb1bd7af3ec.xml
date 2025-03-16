@@ -1,0 +1,26 @@
+<annotation>
+	<folder>W</folder>
+	<filename>W_feefcfc6-607b-4179-8ac3-1fb1bd7af3ec.jpg</filename>
+	<path>C:\Users\Priya\OneDrive\Desktop\MiniProject\fakenewsdetection\RealTimeObjectDetection\Tensorflow\workspace\images\W\W_feefcfc6-607b-4179-8ac3-1fb1bd7af3ec.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>W</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>156</xmin>
+			<ymin>194</ymin>
+			<xmax>566</xmax>
+			<ymax>403</ymax>
+		</bndbox>
+	</object>
+</annotation>

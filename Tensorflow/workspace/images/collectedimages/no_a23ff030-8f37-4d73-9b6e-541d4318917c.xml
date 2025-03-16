@@ -1,0 +1,26 @@
+<annotation>
+	<folder>no</folder>
+	<filename>no_a23ff030-8f37-4d73-9b6e-541d4318917c.jpg</filename>
+	<path>C:\Users\Priya\OneDrive\Desktop\MiniProject\fakenewsdetection\RealTimeObjectDetection\Tensorflow\workspace\images\no\no_a23ff030-8f37-4d73-9b6e-541d4318917c.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>No</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>14</xmin>
+			<ymin>263</ymin>
+			<xmax>574</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>

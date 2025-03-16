@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Q</folder>
+	<filename>Q_111222c2-65a5-421c-a16c-c49702c02bc1.jpg</filename>
+	<path>C:\Users\Priya\OneDrive\Desktop\MiniProject\fakenewsdetection\RealTimeObjectDetection\Tensorflow\workspace\images\Q\Q_111222c2-65a5-421c-a16c-c49702c02bc1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Q</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>290</xmin>
+			<ymin>243</ymin>
+			<xmax>562</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>

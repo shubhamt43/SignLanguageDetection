@@ -1,0 +1,26 @@
+<annotation>
+	<folder>M</folder>
+	<filename>M_96cc0482-58a6-4a53-a0e3-8a5f7fbccf9b.jpg</filename>
+	<path>C:\Users\Priya\OneDrive\Desktop\MiniProject\fakenewsdetection\RealTimeObjectDetection\Tensorflow\workspace\images\M\M_96cc0482-58a6-4a53-a0e3-8a5f7fbccf9b.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>M</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>235</xmin>
+			<ymin>157</ymin>
+			<xmax>515</xmax>
+			<ymax>431</ymax>
+		</bndbox>
+	</object>
+</annotation>

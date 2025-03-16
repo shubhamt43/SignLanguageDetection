@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Z</folder>
+	<filename>Z_81e2147f-0c37-458a-9b94-7d1ff0963c9a.jpg</filename>
+	<path>C:\Users\Priya\OneDrive\Desktop\MiniProject\fakenewsdetection\RealTimeObjectDetection\Tensorflow\workspace\images\Z\Z_81e2147f-0c37-458a-9b94-7d1ff0963c9a.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Z</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>219</ymin>
+			<xmax>565</xmax>
+			<ymax>465</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>N</folder>
+	<filename>N_38921135-2d8e-4730-881e-759c64165c7d.jpg</filename>
+	<path>C:\Users\Priya\OneDrive\Desktop\MiniProject\fakenewsdetection\RealTimeObjectDetection\Tensorflow\workspace\images\N\N_38921135-2d8e-4730-881e-759c64165c7d.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>N</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>77</xmin>
+			<ymin>176</ymin>
+			<xmax>461</xmax>
+			<ymax>421</ymax>
+		</bndbox>
+	</object>
+</annotation>

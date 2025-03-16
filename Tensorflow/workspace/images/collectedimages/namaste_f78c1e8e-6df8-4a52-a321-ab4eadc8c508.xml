@@ -1,0 +1,26 @@
+<annotation>
+	<folder>namaste</folder>
+	<filename>namaste_f78c1e8e-6df8-4a52-a321-ab4eadc8c508.jpg</filename>
+	<path>C:\Users\Priya\OneDrive\Desktop\MiniProject\fakenewsdetection\RealTimeObjectDetection\Tensorflow\workspace\images\namaste\namaste_f78c1e8e-6df8-4a52-a321-ab4eadc8c508.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>namaste</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>317</xmin>
+			<ymin>163</ymin>
+			<xmax>506</xmax>
+			<ymax>472</ymax>
+		</bndbox>
+	</object>
+</annotation>

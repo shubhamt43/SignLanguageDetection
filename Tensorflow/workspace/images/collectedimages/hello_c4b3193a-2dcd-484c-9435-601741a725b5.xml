@@ -1,0 +1,26 @@
+<annotation>
+	<folder>hello</folder>
+	<filename>hello_c4b3193a-2dcd-484c-9435-601741a725b5.jpg</filename>
+	<path>C:\Users\Priya\OneDrive\Desktop\MiniProject\fakenewsdetection\RealTimeObjectDetection\Tensorflow\workspace\images\hello\hello_c4b3193a-2dcd-484c-9435-601741a725b5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Hello</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>267</xmin>
+			<ymin>184</ymin>
+			<xmax>444</xmax>
+			<ymax>427</ymax>
+		</bndbox>
+	</object>
+</annotation>

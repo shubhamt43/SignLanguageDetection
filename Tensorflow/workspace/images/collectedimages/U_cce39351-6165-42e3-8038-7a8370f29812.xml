@@ -1,0 +1,26 @@
+<annotation>
+	<folder>U</folder>
+	<filename>U_cce39351-6165-42e3-8038-7a8370f29812.jpg</filename>
+	<path>C:\Users\Priya\OneDrive\Desktop\MiniProject\fakenewsdetection\RealTimeObjectDetection\Tensorflow\workspace\images\U\U_cce39351-6165-42e3-8038-7a8370f29812.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>U</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>211</xmin>
+			<ymin>188</ymin>
+			<xmax>486</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>

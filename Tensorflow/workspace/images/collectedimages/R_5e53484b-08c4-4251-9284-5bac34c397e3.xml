@@ -1,0 +1,26 @@
+<annotation>
+	<folder>R</folder>
+	<filename>R_5e53484b-08c4-4251-9284-5bac34c397e3.jpg</filename>
+	<path>C:\Users\Priya\OneDrive\Desktop\MiniProject\fakenewsdetection\RealTimeObjectDetection\Tensorflow\workspace\images\R\R_5e53484b-08c4-4251-9284-5bac34c397e3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>R</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>303</xmin>
+			<ymin>180</ymin>
+			<xmax>558</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>
