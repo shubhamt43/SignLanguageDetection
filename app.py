@@ -4,11 +4,15 @@ import torch
 from PIL import Image
 import io
 import pathlib
+import sys
+
+
 
 app = Flask(__name__)
 CORS(app)
 
-pathlib.PosixPath = pathlib.WindowsPath
+if sys.platform == "win32":
+    pathlib.PosixPath = pathlib.WindowsPath
 # Load model
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='yt.pt', force_reload=True)
 model.conf = 0.8
