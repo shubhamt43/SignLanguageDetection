@@ -750,7 +750,7 @@
             formData.append('image', blob, 'frame.jpg');
 
             try {
-                const res = await fetch('http://127.0.0.1:5000/detect', {
+                const res = await fetch('https://huggingface.co/spaces/shubhamt43/sign-language-backend/predict', {
                 method: 'POST',
                 body: formData
                 });
