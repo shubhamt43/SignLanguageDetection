@@ -52,13 +52,6 @@ This creates a **smooth, hands-free, and voice-assisted** experience — great f
 
 ---
 
-## 🌐 Live Demo
-
-🚀 **Deployed on Hugging Face Spaces**  
-🎥 [Watch Demo Video](demo.mp4)
-
----
-
 ## 🙌 Acknowledgements
 
 - [YOLOv5](https://github.com/ultralytics/yolov5) by **Ultralytics**
