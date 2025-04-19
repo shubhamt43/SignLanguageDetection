@@ -537,6 +537,31 @@
             font-weight: bold;
             cursor: pointer;
         }
+        @media (max-width: 600px) {
+            .modal-content {
+                width: 90%;
+                padding: 15px;
+            }
+
+            .modal-content video {
+                max-height: 250px;
+            }
+
+            .modal-content p {
+                font-size: 16px;
+            }
+
+            .modal-content button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+
+            .modal-content .close {
+                top: 10px;
+                right: 15px;
+                font-size: 24px;
+            }
+        }
 
     </style>
 </head>
@@ -544,14 +569,14 @@
     <nav class="navbar">
         <a href="#" class="logo">GESTURE.IO</a>
         <ul class="nav-menu">
-            <li><a href="#Home" class="nav-link">Home</a></li>
+            <li><a href="/" class="nav-link">Home</a></li>
             <li><a href="#Tool's" class="nav-link">Tool's</a></li>
-            <li><a href="Maker's.html" class="nav-link">Contact Us</a></li>
+            <li><a href="/makers" class="nav-link">Contact Us</a></li>
             <!-- <li><a href="#" class="nav-link">Community</a></li> -->
         </ul>
         <div class="nav-buttons">
             <li id="darkModeToggle">🌙 Dark Mode</li>
-            <a href="Maker's.html" class="btn btn-outline">Maker's of this website's</a>
+            <a href="/makers" class="btn btn-outline">Maker's of this website's</a>
         </div>
     </nav>
 
@@ -569,13 +594,13 @@
               <span class="close" onclick="stopTranslating()">&times;</span>
               <video id="video" autoplay playsinline></video>
               <p id="result">Detected: None</p>
-              <button onclick="stopTranslating()">Stop Translating</button>
+              <button style="background-color: #0066FF; border-radius: 10%; padding: 8px;" onclick="stopTranslating()">Stop Translating</button>
             </div>
         </div>
     </section>
 
     <div class="device-mockup">
-        <img src="./assets/img1.jpeg" alt="Gesture Editor Interface">
+        <img src="/static/assets/img1.jpeg" alt="Gesture Editor Interface">
     </div>
 <section id="Tool's">
     <div class="container">
@@ -593,7 +618,7 @@
             <div class="step">
                 <div class="step-image">
                     <div class="">
-                        <div class="inner"><img src="./assets/img2.jpeg" alt=""></div>
+                        <div class="inner"><img src="/static/assets/img2.jpeg" alt=""></div>
                     </div>
                 </div>  
             </div>
@@ -621,7 +646,7 @@
                     <p>"Breaking communication barriers, our sign language detection system bridges the gap between communities. With cutting-edge technology, we make it easy to translate gestures into words, fostering inclusivity and effortless connection."</p>
                 </div>
                 <div class="feature-image">
-                    <img src="./assets/img3.jpg" alt="Video recording interface">
+                    <img src="/static/assets/img3.jpg" alt="Video recording interface">
                 </div>
     </section>
 
@@ -639,7 +664,7 @@
                         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                     </svg>
                 </a>
-                <a href="Maker's.html" aria-label="Additional Link">
+                <a href="/makers" aria-label="Additional Link">
                     <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M10.0355 15.8839C9.8137 16.1057 9.8137 16.4699 10.0355 16.6917L11.6213 18.2775C12.7929 19.4491 14.7076 19.4491 15.8792 18.2775L18.2775 15.8792C19.4491 14.7076 19.4491 12.7929 18.2775 11.6213L16.6917 10.0355C16.4699 9.8137 16.1057 9.8137 15.8839 10.0355L10.0355 15.8839ZM8.11612 13.9645C7.8943 13.7427 7.53009 13.7427 7.30827 13.9645L5.72248 15.5503C4.55088 16.7219 4.55088 18.6366 5.72248 19.8082L8.12081 22.2065C9.29241 23.3781 11.2071 23.3781 12.3787 22.2065L13.9645 20.6207C14.1863 20.3989 14.1863 20.0347 13.9645 19.8129L8.11612 13.9645ZM19.8082 12.3787C20.03 12.1569 20.03 11.7927 19.8082 11.5708L18.2224 9.98505C17.0508 8.81345 15.1361 8.81345 13.9645 9.98505L11.5662 12.3834C10.3946 13.555 10.3946 15.4697 11.5662 16.6413L13.152 18.2271C13.3738 18.4489 13.738 18.4489 13.9598 18.2271L19.8082 12.3787ZM13.9645 8.11612C14.1863 7.8943 14.1863 7.53009 13.9645 7.30827L12.3787 5.72248C11.2071 4.55088 9.29241 4.55088 8.12081 5.72248L5.72248 8.12081C4.55088 9.29241 4.55088 11.2071 5.72248 12.3787L7.30827 13.9645C7.53009 14.1863 7.8943 14.1863 8.11612 13.9645L13.9645 8.11612Z"/>
                     </svg>
@@ -750,7 +775,7 @@
             formData.append('image', blob, 'frame.jpg');
 
             try {
-                const res = await fetch('https://huggingface.co/spaces/shubhamt43/sign-language-backend/detect', {
+                const res = await fetch('/detect', {
                 method: 'POST',
                 body: formData
                 });
