@@ -71,6 +71,6 @@ This creates a **smooth, hands-free, and voice-assisted** experience — great f
 
 Have questions, ideas, or feedback?  
 Feel free to reach out — we’d love to hear from you!
-📧 Email: [shubhamsubodhtiwari@gmail.com]
-💼 LinkedIn: [Shubham Tiwari]
+- 📧 Email: [shubhamsubodhtiwari@gmail.com]
+- 💼 LinkedIn: [Shubham Tiwari]
 ---
