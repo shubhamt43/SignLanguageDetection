@@ -43,7 +43,7 @@ setuptools>=70.0.0 # Snyk vulnerability fix
 # tritonclient[all]~=2.24.0
 flask
 flask_cors
-
+opencv-python
 # Extras ----------------------------------------------------------------------
 # ipython  # interactive notebook
 # mss  # screenshots
